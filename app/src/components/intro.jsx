@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import '../styles/intro.css'
  
-class Intro extends React.Component {
+export default function Intro() {
 
-    render() { 
         return (
-            <div>
-                <span>Description for Website</span>
+            <div className="intro page">
+                <div>
+                    <span className="intro page ">Description for Website</span>
 
-                
-                
+                    
+                    
+                </div>
             </div>
         );
-    } 
 
 }
  
-export default Intro;
