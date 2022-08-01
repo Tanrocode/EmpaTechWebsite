@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import Rishit from "./rishit";
-import Tanush from "./tanush";
-import Vishal from "./vishal";
-import SumDud from "./sumDud";
+import nameCards from "./nameCard";
 
 class Counters extends React.Component {
+
+    names = ["Tanush", "Rishit", "Vishal"];
+
     state={
         
-
     }
         
-   
-
     render() {
         return(
             <div>
-                <Rishit />
-                <Tanush />
-                <Vishal />
-                <SumDud />
-                
+                    <nameCards name = { this.names[0] }></nameCards>
+                    <nameCards name = { this.names[1] }></nameCards>
+                    <nameCards name = { this.names[2] }></nameCards>
             </div>
         )
     }
