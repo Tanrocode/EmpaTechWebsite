@@ -8,11 +8,14 @@ export default function Intro() {
 
 
     return (
-            <div className="intro-page">
+            <div className="intro page">
                 <div>
                     <img src= { HomePic } alt='' className='HomePic'></img>
                     <h1 className='centered'>Illuminating Our Community, One Project at a Time</h1>
                     <span><a href="#"></a></span>             
+                </div>
+                <div>
+                    <h1 ref={ ref }>EMPATECH IS AN ORG</h1>
                 </div>
             </div>
     );
