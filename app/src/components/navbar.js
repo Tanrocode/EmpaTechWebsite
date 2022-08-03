@@ -20,7 +20,12 @@ export default function Nav() {
         <MenuItem name="Team" href="/" />
         <MenuItem name="Mission" href="/" />
         <MenuItem name="Projects" href="/" />
-        <a className="align" href="https://github.com/EmpaTechOrg">
+        <a
+          className="align"
+          href="https://github.com/EmpaTechOrg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="GITsize" src={`${GITLogo}`} alt=""></img>
         </a>
       </ul>
