@@ -9,7 +9,7 @@ export default function About(props) {
             <div className={className}>
                 <div className="shadow">
                     <h1 className={titleClass}> {props.title}</h1>
-                    <span>
+                    <span className="description">
                         {props.children}
                     </span>
                 </div>

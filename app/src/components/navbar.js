@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import SVGLogo from "../pictures/logo.png";
 import GITLogo from "../pictures/git-logo.png";
 import "../styles/image.css";
+import { Link } from 'react-router-dom';
+
 function MenuItem(props) {
   return (
     <li>
-      <a href={props.href}>{props.name}</a>
+      <Link to={props.href}>{props.name}</ Link>
     </li>
   );
 }
@@ -17,9 +19,9 @@ export default function Nav() {
         <a href="/">
           <img className="LOGOsize" src={`${SVGLogo}`} alt=""></img>
         </a>
-        <MenuItem name="Team" href="/" />
-        <MenuItem name="Mission" href="/" />
-        <MenuItem name="Projects" href="/" />
+        <MenuItem name="Team" href="/team" />
+        <MenuItem name="Projects" href="/projects" />
+        <MenuItem name="Contact" href="/contact" />
         <a
           className="align"
           href="https://github.com/EmpaTechOrg"
