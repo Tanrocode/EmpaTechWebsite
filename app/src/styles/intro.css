@@ -11,8 +11,21 @@
   font-size: 30px;
   font-family:'Cairo', sans-serif;
   font-weight: bold;
+  animation: fadeInLeft 1s
   
 }
+
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+}
+
 .StartStyle {
   bottom:30px;
   color: white;

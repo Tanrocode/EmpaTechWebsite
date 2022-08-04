@@ -1,27 +1,19 @@
 import "../styles/about.css";
-import HomePic from "../pictures/HomePic.png";
 import React, { Component } from "react";
 
-export default function About() {
-  return (
-      <div>
-        <div className="page about ">
-            <div className="shadow">
-                 <span>
-                    About
-                </span>
+export default function About(props) {
+    const titleClass = "title " + props.title
+    const className = "page " + props.className
+    return (
+        <div>
+            <div className={className}>
+                <div className="shadow">
+                    <h1 className={titleClass}> {props.title}</h1>
+                    <span>
+                        {props.children}
+                    </span>
+                </div>
             </div>
         </div>
-
-        <div className="page about2 " >
-            <div className="shadow">
-                <span>
-                    About2
-                </span>
-            </div>
-            
-        </div>
-        
-    </div>
-  );
+    );
 }
