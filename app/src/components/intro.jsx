@@ -18,7 +18,7 @@ export default function Intro() {
           <button className="start" onClick={scroll}>Learn More</button>
         </span>
       </div>
-      <div ref={myRef}>
+      <div ref={myRef} className="card_page">
         <About className="about" title="Who Are We?">EmpaTech is an organization which aims to nurture youth in the vast field of technology, via designing technologies for the benefit of the community.</About>
         <About className="QA" title="What Can We Provide?">We can get members experience building applications for the greater good. Get your service hours via programming! </About>
       </div>
