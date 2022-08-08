@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(45deg, rgb(112, 112, 112), rgb(73, 73, 73));
-  
+  overflow-y: hidden;
 }
 
 .QA {
@@ -28,21 +28,25 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(rgb(184, 184, 184), darkgray);
+  overflow-y: hidden;
 }
 
 .title {
-  top: 50px;
+  display:flex;
+  top: 50%;
   font-family: "Montserrat", sans-serif;
 }
 
-.shadow {
+.align-card {
+  display:flex;
   transform: skewX(7deg);
   height: 60vh;
-  width: 78%;
+  width: 90%;
   border-radius: 15px;
   padding: 50px;
   display: flex;
   flex-direction: column;
 }
+
 
 
