@@ -17,25 +17,24 @@
 .TextStyle {
   color: white;
   font-size: 30px;
-  font-family:'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: bold;
-  animation: fadeInLeft 1s
-  
+  animation: fadeInLeft 1s;
 }
 
 @keyframes fadeInLeft {
   0% {
-     opacity: 0;
-     transform: translateX(-20px);
+    opacity: 0;
+    transform: translateX(-20px);
   }
   100% {
-     opacity: 1;
-     transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
 .StartStyle {
-  bottom:30px;
+  bottom: 30px;
   color: white;
   animation: fadeIn 1s;
 }
@@ -50,12 +49,16 @@
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .start {
-  top:60%;
+  top: 60%;
   --green: #1bfd9c;
   border: 2px solid var(--green);
 

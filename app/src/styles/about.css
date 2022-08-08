@@ -6,40 +6,41 @@
   padding: auto;
 }
 .about {
-    transform:skewX(-7deg);
+  transform: skewX(-7deg);
   display: flex;
-  left:-3.2%;
+  left: -3.2%;
   top: 100%;
   height: 90%;
   width: 53.2%;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(45deg, #6303B1, #ff0099);
+  background-image: linear-gradient(45deg, #6303b1, #ff0099);
 }
 
 .QA {
-transform: skewX(173deg);
+  transform: skewX(173deg);
   display: flex;
   top: 100%;
   height: 90%;
   width: 53.2%;
-  left:50%;
+  left: 50%;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(#ff8a00, #e52e71);
-
 }
 
-
 .title {
-  top:50px;
+  top: 50px;
   font-family: "Montserrat", sans-serif;
-  
 }
 
 .shadow {
-  transform:skewX(7deg);
-  background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+  transform: skewX(7deg);
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgba(83, 138, 214, 1) 0%,
+    rgba(134, 231, 214, 1) 90%
+  );
   height: 60vh;
   width: 78%;
   border-radius: 15px;
