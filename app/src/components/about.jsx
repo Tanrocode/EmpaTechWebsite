@@ -1,4 +1,4 @@
-import "../styles/about.css";
+import "../styles/about.scss";
 import React from "react";
 
 export default function About(props) {

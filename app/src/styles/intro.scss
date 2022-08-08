@@ -1,21 +1,21 @@
+@mixin format {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: auto;
+}
+
 body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
 .intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: auto;
+  @include format;
 }
 .card_page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: auto;
+  @include format;
   background-color: mediumblue;
 }
 
@@ -45,7 +45,6 @@ body {
 }
 .center {
   display: flex;
-
   align-items: center;
   flex-direction: column;
   top: 55%;

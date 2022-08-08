@@ -1,7 +1,7 @@
 import React from "react";
 import SVGLogo from "../pictures/logo.png";
 import GITLogo from "../pictures/git-logo.png";
-import "../styles/image.css";
+import "../styles/image.scss";
 function MenuItem(props) {
   return (
     <li>

@@ -1,4 +1,4 @@
-import "../styles/intro.css";
+import "../styles/intro.scss";
 import HomePic from "../pictures/HomePic.png";
 import About from "./about.jsx";
 import React, { Component, useRef } from "react";
