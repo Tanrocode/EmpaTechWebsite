@@ -14,7 +14,8 @@
   width: 53.2%;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(45deg, #6303b1, #ff0099);
+  background-image: linear-gradient(45deg, rgb(112, 112, 112), rgb(73, 73, 73));
+  
 }
 
 .QA {
@@ -26,7 +27,7 @@
   left: 50%;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#ff8a00, #e52e71);
+  background-image: linear-gradient(rgb(184, 184, 184), darkgray);
 }
 
 .title {
@@ -36,21 +37,12 @@
 
 .shadow {
   transform: skewX(7deg);
-  background-image: radial-gradient(
-    circle farthest-corner at 92.3% 71.5%,
-    rgba(83, 138, 214, 1) 0%,
-    rgba(134, 231, 214, 1) 90%
-  );
   height: 60vh;
   width: 78%;
   border-radius: 15px;
-  box-shadow: 10px 10px 8px #da0000;
   padding: 50px;
   display: flex;
   flex-direction: column;
-  transition: all 0.2s ease-in-out;
 }
 
-.shadow:hover {
-  transform: scale(1.02);
-}
+
