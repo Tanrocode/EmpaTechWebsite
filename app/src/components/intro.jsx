@@ -7,7 +7,12 @@ import React, { Component, useRef } from "react";
 export default function Intro() {
   const myRef = useRef(null);
   const scroll = () => myRef.current.scrollIntoView();
-
+  const ScrollToQA =() => {
+      window.scrollTo({
+          top:800,
+          behavior:'smooth'
+      })
+  }
   return (
     <Wrapper>
       <div
@@ -18,7 +23,7 @@ export default function Intro() {
           Illuminating Our Community, One Project at a Time
         </span>
         <span className="center  StartStyle">
-          <button className="start" onClick={scroll}>
+          <button className="start" onClick={ScrollToQA}>
             Learn More
           </button>
         </span>
