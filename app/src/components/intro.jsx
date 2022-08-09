@@ -2,17 +2,17 @@ import "../styles/intro.scss";
 import HomePic from "../pictures/HomePic.png";
 import About from "./about.jsx";
 import Wrapper from "./Helpers/Wrapper";
-import React, { Component, useRef } from "react";
+import React, { useRef } from "react";
 
 export default function Intro() {
   const myRef = useRef(null);
-  const scroll = () => myRef.current.scrollIntoView();
-  const ScrollToQA =() => {
-      window.scrollTo({
-          top:800,
-          behavior:'smooth'
-      })
-  }
+  // const scroll = () => myRef.current.scrollIntoView();
+  const ScrollToQA = () => {
+    window.scrollTo({
+      top: 800,
+      behavior: "smooth",
+    });
+  };
   return (
     <Wrapper>
       <div

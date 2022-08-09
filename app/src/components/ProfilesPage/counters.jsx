@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Wrapper from "../Helpers/Wrapper";
 import nameCards from "./nameCard";
 
 class Counters extends React.Component {
@@ -8,11 +9,11 @@ class Counters extends React.Component {
 
   render() {
     return (
-      <div>
+      <Wrapper>
         <nameCards name={this.names[0]}></nameCards>
         <nameCards name={this.names[1]}></nameCards>
         <nameCards name={this.names[2]}></nameCards>
-      </div>
+      </Wrapper>
     );
   }
 }
