@@ -1,6 +1,7 @@
 import "../styles/intro.scss";
 import HomePic from "../pictures/HomePic.png";
 import About from "./about.jsx";
+import Wrapper from "./Helpers/Wrapper";
 import React, { Component, useRef } from "react";
 
 export default function Intro() {
@@ -8,7 +9,7 @@ export default function Intro() {
   const scroll = () => myRef.current.scrollIntoView();
 
   return (
-    <div>
+    <Wrapper>
       <div
         className="intro page"
         style={{ backgroundImage: `url(${HomePic})` }}
@@ -33,6 +34,6 @@ export default function Intro() {
           good. Get your service hours via programming!
         </About>
       </div>
-    </div>
+    </Wrapper>
   );
 }
