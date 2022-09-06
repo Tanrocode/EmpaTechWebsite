@@ -17,7 +17,7 @@ export default function Nav() {
         <a href="/">
           <img className="LOGOsize" src={`${SVGLogo}`} alt=""></img>
         </a>
-        <MenuItem name="Team" href="/" />
+        <MenuItem name="Team" href="/team_page" />
         <MenuItem name="Mission" href="/" />
         <MenuItem name="Projects" href="/" />
         <a

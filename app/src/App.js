@@ -1,17 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import NavBar from "./components/navbar";
 import Intro from "./components/intro";
-class App extends Component {
-  render() {
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Team_Page from "./components/team_page"
+
+function App() {
     return (
-      <React.Fragment>
+      <div className="App">
         <NavBar />
-        <main className="container">
-          <Intro />
-        </main>
-      </React.Fragment>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Intro />} />
+            <Route path="/team_page" element={<Team_Page />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     );
-  }
 }
 
 export default App;

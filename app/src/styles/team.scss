@@ -1,0 +1,93 @@
+.team {
+  display: flex;
+  top:6%;
+  height: 90%;
+  width: 100%;
+  background-image: linear-gradient(
+    45deg,
+    rgb(197, 196, 196),
+    rgb(197, 196, 196)
+  );
+  overflow-y: hidden;
+}
+.team_cont {
+    display: flex;
+    top: 90%;
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(
+      45deg,
+      rgb(197, 196, 196),
+      rgb(197, 196, 196)
+    );
+    overflow-y: hidden;
+}
+.team_cont2{
+    display: flex;
+    top: 180%;
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(
+      45deg,
+      rgb(197, 196, 196),
+      rgb(197, 196, 196)
+    );
+    overflow-y: hidden;
+
+}
+.pic {
+    display:flex;
+    height:100%;
+    width:80%;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+}
+
+.pic_1{
+    height:90%;
+    width:80%;
+
+    
+   
+}
+
+.pic2 {
+    left:25%;
+    display:flex;
+    height:100%;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    overflow:hidden;
+    
+    
+}
+.pic_2{
+    height:90%;
+    width:80%;
+    
+   
+}
+.center_team{
+    display:flex;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position:absolute;
+    left:46%;
+}
+.abt_person{
+    display:flex;
+    background-color:rgb(109, 108, 108);
+    opacity:0.4;
+    height:100%;
+}
+
+
+
+
+
+

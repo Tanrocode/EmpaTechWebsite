@@ -18,6 +18,11 @@ body {
   @include format;
   background-color: mediumblue;
 }
+.team_page {
+  @include format;
+  background-color: mediumblue;
+}
+
 
 .TextStyle {
   color: white;

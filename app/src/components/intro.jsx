@@ -1,6 +1,8 @@
+import "../styles/team.scss";
 import "../styles/intro.scss";
 import HomePic from "../pictures/HomePic.png";
 import About from "./about.jsx";
+
 import Wrapper from "./Helpers/Wrapper";
 import React, { useRef } from "react";
 
@@ -39,6 +41,7 @@ export default function Intro() {
           good. Get your service hours via programming!
         </About>
       </div>
+      
     </Wrapper>
   );
 }
