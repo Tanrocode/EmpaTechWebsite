@@ -22,7 +22,7 @@ export default function Nav() {
         </Link>
         <MenuItem name="Team" href="/team_page" />
         <MenuItem name="Mission" href="/" />
-        <MenuItem name="Projects" href="/" />
+        <MenuItem name="Projects" href="/projects" />
         <a
           className="align"
           href="https://github.com/EmpaTechOrg"

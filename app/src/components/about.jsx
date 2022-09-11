@@ -4,6 +4,7 @@ import Wrapper from "./Helpers/Wrapper";
 
 export default function About(props) {
   const className = "page " + props.className;
+  const cover= "page " + props.cover;
   return (
     <Wrapper>
       <div className={className}>
@@ -12,6 +13,7 @@ export default function About(props) {
           <span>{props.children}</span>
         </div>
       </div>
+      <div className={cover}></div>
     </Wrapper>
   );
 }
