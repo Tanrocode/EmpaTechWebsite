@@ -19,8 +19,8 @@ export default function Intro() {
     <Wrapper>
       <div className="total_page">
         <div
-          className="intro page"
-          style={{ backgroundImage: `url(${HomePic})` }}
+          className="intro page "
+          style={{ backgroundColor: '#100364' }}
         >
           <span className="TextStyle intro  ">
             Illuminating Our Community, One Project at a Time
@@ -31,6 +31,7 @@ export default function Intro() {
             </button>
           </span>
         </div>
+        
         <div ref={myRef} className="card_page">
           <About className="about" title="Who Are We?" cover="about_cover">
             EmpaTech is an organization which aims to nurture youth in the vast
@@ -43,7 +44,7 @@ export default function Intro() {
           </About>
         </div>
       </div>
-      
+
     </Wrapper>
   );
 }

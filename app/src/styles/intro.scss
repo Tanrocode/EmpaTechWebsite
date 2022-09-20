@@ -1,7 +1,6 @@
 @mixin format {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: auto;
 }
@@ -14,31 +13,60 @@ body {
 .intro {
   @include format;
 }
+
 .card_page {
   @include format;
   background-color: mediumblue;
 }
+
 .footer_page {
   @include format;
   background-color: mediumblue;
 }
+
 .team_page {
   @include format;
   background-color: mediumblue;
 }
+
 .projects_page {
   @include format;
   background-color: rgb(196, 195, 195);
 }
 
+.custom-shape-divider-bottom-1663642963 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 
+}
+
+.custom-shape-divider-bottom-1663642963 svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 103px;
+}
+
+.custom-shape-divider-bottom-1663642963 .shape-fill {
+  fill: #FFFFFF;
+}
 
 .TextStyle {
-  color: white;
-  font-size: 30px;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Josefin Sans';
+  font-style: normal;
   font-weight: bold;
-  animation: fadeInLeft 2s;
+  font-size: 60px;
+  padding-left: 150px;
+  color: white;
+  width: 920px;
+  word-wrap: break-word;
+  animation: fadeInLeft 1s;
+
 }
 
 @keyframes fadeInLeft {
@@ -46,6 +74,7 @@ body {
     opacity: 0;
     transform: translateX(-20px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -55,78 +84,25 @@ body {
 .StartStyle {
   bottom: 30px;
   color: white;
-  animation: fadeIn 1s;
-}
-.center {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  top: 55%;
-  padding: auto;
-  animation: fadeIn 2s;
+  
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.center {
+  
+  font-family: 'Inter';
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  padding-top: 50px;
+  padding-left: 150px;
+
+
 }
 
 .start {
-  top: 60%;
-  --green: #1bfd9c;
-  border: 2px solid var(--green);
-
-  background: linear-gradient(
-    to right,
-    rgba(27, 253, 156, 0.1) 1%,
-    transparent 40%,
-    transparent 60%,
-    rgba(27, 253, 156, 0.1) 100%
-  );
-  color: var(--green);
-  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
-    0 0 9px 3px rgba(27, 253, 156, 0.1);
-  height: 5vh;
-  cursor: pointer;
-
-  padding: 0.5em 2.7em;
-  letter-spacing: 0.06em;
-  position: relative;
-  border-radius: 0.6em;
-  overflow: hidden;
-  transition: all 0.6s;
-  line-height: 1.4em;
-}
-
-button:hover {
-  color: #82ffc9;
-  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
-    0 0 9px 3px rgba(27, 253, 156, 0.2);
-}
-
-button:before {
-  content: "";
-  position: absolute;
-  left: -4em;
-  /* width: 4em;
-  height: 100%; */
-  width: 4em;
-  height: 5vh;
-  top: 0;
-  transition: transform 0.4s ease-in-out;
-  background: linear-gradient(
-    to right,
-    transparent 1%,
-    rgba(27, 253, 156, 0.1) 40%,
-    rgba(27, 253, 156, 0.1) 60%,
-    transparent 100%
-  );
-}
-
-button:hover:before {
-  transform: translateX(15em);
+  border-radius: 30px 30px 30px 30px;
+  width: 200px;
+  height: 40px;
 }

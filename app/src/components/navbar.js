@@ -1,5 +1,5 @@
 import React from "react";
-import SVGLogo from "../pictures/logo.png";
+import SVGLogo from "../pictures/EmpaTech.png";
 import GITLogo from "../pictures/git-logo.png";
 import "../styles/image.scss";
 import { Link } from "react-router-dom";
@@ -16,22 +16,16 @@ function MenuItem(props) {
 export default function Nav() {
   return (
     <nav>
+      <Link to="/">
+        <img className="LOGOsize" src={`${SVGLogo}`} alt=""></img>
+      </Link>
       <ul>
-        <Link to="/">
-          <img className="LOGOsize" src={`${SVGLogo}`} alt=""></img>
-        </Link>
-        <MenuItem name="Team" href="/team_page" />
-        <MenuItem name="Mission" href="/" />
-        <MenuItem name="Projects" href="/projects" />
-        <a
-          className="align"
-          href="https://github.com/EmpaTechOrg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className="GITsize" src={`${GITLogo}`} alt=""></img>
-        </a>
+        <MenuItem name="TEAM" href="/team_page" />
+        <MenuItem name="MISSION" href="/" />
+        <MenuItem name="PROJECTS" href="/projects" />
+
       </ul>
     </nav>
   );
 }
+
