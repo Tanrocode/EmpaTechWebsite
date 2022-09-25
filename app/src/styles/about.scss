@@ -55,6 +55,8 @@
   display:flex;
   top: 50%;
   font-family: "Montserrat", sans-serif;
+  border-bottom: solid 2px;
+  padding-bottom: 10px;
 }
 
 .align-card {
@@ -67,6 +69,8 @@
   display: flex;
   flex-direction: column;
 }
-
+.content{
+  padding-top:10px;
+}
 
 

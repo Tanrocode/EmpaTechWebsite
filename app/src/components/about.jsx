@@ -10,7 +10,7 @@ export default function About(props) {
       <div className={className}>
         <div className="align-card">
           <h1 className="title"> {props.title}</h1>
-          <span>{props.children}</span>
+          <span className="content">{props.children}</span>
         </div>
       </div>
       <div className={cover}></div>
