@@ -17,7 +17,9 @@ export default function Team(props) {
       <Wrapper>
         <div className={className} >
             <div className={className2} style={props.style} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-              {isHovering && <h1 className="abt_person">{props.children}</h1>}
+              {isHovering && <div className="abt_person">
+                  <h1>{props.children}</h1>
+                </div>}
             </div>
           </div>
       </Wrapper>

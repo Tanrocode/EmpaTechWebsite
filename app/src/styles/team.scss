@@ -66,8 +66,17 @@
   left: 46%;
 }
 .abt_person {
-  display: flex;
-  background-color: rgb(109, 108, 108);
-  opacity: 0.4;
-  height: 100%;
+  height:100%;
+  background: linear-gradient(#ffffff00, #25252500 50%, #fefffe 50%, #fafafa);
+  opacity:0.4;
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: 1s;
+}
+
+.abt_person:hover {
+  background-position: 100% 100%;
+}
+.name{
+  font-size:20px;
 }
